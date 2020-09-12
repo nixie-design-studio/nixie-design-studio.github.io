@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;800&display=swap');
+
+body {
+  @apply .font-body;
+  @apply .bg-primary;
+  @apply .text-primary;
+}
+
+h1 {
+  @apply .font-display;
+  @apply .font-extrabold;
+  @apply .text-6xl;
+  @apply .mx-auto;
+}
+
+h2 {
+  @apply .font-extrabold;
+}
+
+p {
+
+}
+
+em {
+  @apply .font-extrabold;
+}
+
+strong {
+  @apply .font-semibold;
+}
+
+header {
+  @apply .bg-tertiary;
+  @apply .pt-6;
+  @apply .pb-6;
+}
+
+header nav {
+}
+
+header nav h1 {
+  @apply .text-base;
+  @apply .font-extrabold;
+}
+

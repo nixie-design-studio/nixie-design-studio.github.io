@@ -1,0 +1,19 @@
+{
+  "name": "kylie.design",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss source/css/index.css -o public/assets/css/index.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "alpinejs": "^2.7.0",
+    "autoprefixer": "^9.8.6",
+    "live-server": "^1.2.1",
+    "postcss-cli": "^7.1.2",
+    "tailwindcss": "^1.8.7"
+  }
+}
