@@ -15,35 +15,86 @@ h1 {
   @apply .font-extrabold;
   @apply .text-6xl;
   @apply .mx-auto;
+  @apply .mt-32;
+  @apply .mb-16;
+  @apply .text-center;
 }
 
 h2 {
   @apply .font-extrabold;
+  @apply .leading-8;
 }
 
-p {
-
-}
-
-em {
-  @apply .font-extrabold;
+p, div, li {
+  @apply .leading-8;
 }
 
 strong {
-  @apply .font-semibold;
-}
-
-header {
-  @apply .bg-tertiary;
-  @apply .pt-6;
-  @apply .pb-6;
-}
-
-header nav {
-}
-
-header nav h1 {
-  @apply .text-base;
   @apply .font-extrabold;
 }
 
+
+em {
+  @apply .font-semibold;
+  @apply .not-italic;
+}
+
+button {
+  @apply .shadow-xl;
+  @apply .bg-tertiary;
+  @apply .pt-2;
+  @apply .pb-2;
+  @apply .pl-4;
+  @apply .pr-4;
+  @apply .mt-8;
+  @apply .mb-8;
+  @apply .font-extrabold;
+}
+
+nav {
+  @apply .bg-tertiary;
+  @apply .pt-2;
+  @apply .pb-2;
+  @apply .shadow-lg;
+}
+
+nav div {
+  @apply .flex;
+  @apply .flex-wrap;
+  @apply .justify-between;
+}
+
+nav ul {
+  @apply .flex-auto;
+  @apply .flex;
+  @apply .justify-end;
+}
+
+nav ul li {
+  @apply .ml-6;
+}
+
+nav a.nav-selected {
+  @apply .font-extrabold
+}
+
+a#home {
+  @apply .font-extrabold
+}
+
+section {
+  @apply .grid;
+  @apply .grid-cols-3;
+}
+
+section header {
+  @apply .col-span-3;
+}
+
+section article {
+  @apply .col-span-2;
+}
+
+section aside {
+  @apply .col-span-1;
+}

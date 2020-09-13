@@ -7,55 +7,58 @@
   <script src="https://cdn.jsdeliver.net/gh/alpinejs/alpine@v2.7.0/dist/alpine.min.js" defer></script>
   <title>kylie jack: ux advocacy and design transformation</title>
 </head>
-<body>
-  <header class="container mx-auto">
-    <nav>
-      <h1><a href="/">Kylie Jack</a></h1>
+<body name="top">
+<div class="flex flex-col h-screen">
+  <nav>
+    <div class="container">
+      <a id="home" href="#top">Kylie Jack</a>
       <ul>
-        <li><a href="#about">About</a></li>
+        <li><a href="#about" class="nav-selected">About</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-    </nav>
-  </header>
-
-  <section name="about" class="container mx-auto bg-hotred-500">
-    <header><h1>Hello, I’m Kylie.</h1></header>
-    <article>
-      <h2>UX Advocacy and Design transformation</h2>
-      <p>I’m a Product Designer and UX strategist with over 25 years of experience in software development and design. I am a problem solver and systems thinker. I craft and evolve products and services to make a positive impact on people's daily lives, from work to play.
-      </p>
-      <p>I've worked in a variety of roles (developer, designer, researcher, project manager), but I focus on user experience design and leadership, because I love engaging directly with users and customers. My specialties include product development, design team management, interaction design, information architecture, user research, and usability testing.
-      </p>
-      <button>Read more…</button>
+    </div>
+  </nav>
+  <main class="flex-1 overflow-y-auto">
+    <section name="about" class="container mx-auto bg-hotred-500">
+      <header><h1>Hello, I’m Kylie.</h1></header>
+      <article>
+        <h2>UX Advocacy and Design transformation</h2>
+        <p>I’m a Product Designer and UX strategist with over 25 years of experience in software development and design. I am a problem solver and systems thinker. I craft and evolve products and services to make a positive impact on people's daily lives, from work to play.
+        </p>
+        <p>I've worked in a variety of roles (developer, designer, researcher, project manager), but I focus on user experience design and leadership, because I love engaging directly with users and customers. My specialties include product development, design team management, interaction design, information architecture, user research, and usability testing.
+        </p>
+        <button>Read more…</button>
+      </article>
       <aside class="stats">
         <ul>
-          <li><em>25</em> years designing and
+          <li><strong>25</strong> years designing and
       building software</li>
           <li>&nbsp;</li>
-          <li><em>16y</em> UX/UI design</li>
-          <li><em>12y</em> product management</li>
-          <li><em>14y</em> programming</li>
-          <li><em>6y</em> project management</li>
-          <li><em>4y</em> user research</li>
+          <li><strong>16y</strong> UX/UI design</li>
+          <li><strong>12y</strong> product management</li>
+          <li><strong>14y</strong> programming</li>
+          <li><strong>6y</strong> project management</li>
+          <li><strong>4y</strong> user research</li>
         </ul>
       </aside>
-    </article>
-  </section>
-  <section>
-    <header>Portfolio</header>
-    <article>
-      <h3>Case study</h3>
-      <p></p>
-      <button>Learn more…</button>
-      <aside class="gallery">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-      </aside>
-    </article>
-  </section>
+    </section>
+    <section>
+      <header>Portfolio</header>
+      <article>
+        <h3>Case study</h3>
+        <p></p>
+        <button>Learn more…</button>
+        <aside class="gallery">
+          <img src="" alt="">
+          <img src="" alt="">
+          <img src="" alt="">
+          <img src="" alt="">
+        </aside>
+      </article>
+    </section>
+  </main>
+</div>
 </body>
 </html>

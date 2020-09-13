@@ -7,8 +7,8 @@ module.exports = {
     backgroundColor: theme => ({
       'primary': '#333',
       'secondary': '#000',
-      'tertiary': '#f13',
-      'danger': '#f13'
+      'tertiary': '#f04',
+      'danger': '#f04'
     }),
     fontFamily: theme => ({
       display: [
@@ -24,18 +24,10 @@ module.exports = {
     }),
     textColor: theme => ({
       'primary': '#fff',
-      'secondary': '#f13',
+      'secondary': '#f04',
       'tertiary': '#333',
       'danger': '#fff'
     }),
-    spacing: {
-      '1': '8px',
-      '2': '12px',
-      '3': '16px',
-      '4': '24px',
-      '5': '32px',
-      '6': '48px',
-    },
   },
   variants: {},
   plugins: [],
