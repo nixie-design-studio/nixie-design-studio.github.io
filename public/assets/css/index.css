@@ -1831,8 +1831,8 @@ video {
 
 .bg-tertiary {
   --bg-opacity: 1;
-  background-color: #f04;
-  background-color: rgba(255, 0, 68, var(--bg-opacity));
+  background-color: #f03;
+  background-color: rgba(255, 0, 51, var(--bg-opacity));
 }
 
 .bg-danger {
@@ -1855,8 +1855,8 @@ video {
 
 .hover\:bg-tertiary:hover {
   --bg-opacity: 1;
-  background-color: #f04;
-  background-color: rgba(255, 0, 68, var(--bg-opacity));
+  background-color: #f03;
+  background-color: rgba(255, 0, 51, var(--bg-opacity));
 }
 
 .hover\:bg-danger:hover {
@@ -1879,8 +1879,8 @@ video {
 
 .focus\:bg-tertiary:focus {
   --bg-opacity: 1;
-  background-color: #f04;
-  background-color: rgba(255, 0, 68, var(--bg-opacity));
+  background-color: #f03;
+  background-color: rgba(255, 0, 51, var(--bg-opacity));
 }
 
 .focus\:bg-danger:focus {
@@ -14522,39 +14522,31 @@ video {
 }
 
 .shadow-xs {
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 0 1 rgba(0, 0, 0, 0.2);
 }
 
 .shadow-sm {
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
 }
 
 .shadow {
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.9);
 }
 
 .shadow-md {
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.75);
 }
 
 .shadow-lg {
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
 }
 
 .shadow-xl {
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-}
-
-.shadow-2xl {
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.25);
 }
 
 .shadow-inner {
   box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
-}
-
-.shadow-outline {
-  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
 }
 
 .shadow-none {
@@ -14562,39 +14554,31 @@ video {
 }
 
 .hover\:shadow-xs:hover {
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 0 1 rgba(0, 0, 0, 0.2);
 }
 
 .hover\:shadow-sm:hover {
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
 }
 
 .hover\:shadow:hover {
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.9);
 }
 
 .hover\:shadow-md:hover {
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.75);
 }
 
 .hover\:shadow-lg:hover {
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
 }
 
 .hover\:shadow-xl:hover {
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-}
-
-.hover\:shadow-2xl:hover {
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.25);
 }
 
 .hover\:shadow-inner:hover {
   box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
-}
-
-.hover\:shadow-outline:hover {
-  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
 }
 
 .hover\:shadow-none:hover {
@@ -14602,39 +14586,31 @@ video {
 }
 
 .focus\:shadow-xs:focus {
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 0 1 rgba(0, 0, 0, 0.2);
 }
 
 .focus\:shadow-sm:focus {
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
 }
 
 .focus\:shadow:focus {
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.9);
 }
 
 .focus\:shadow-md:focus {
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.75);
 }
 
 .focus\:shadow-lg:focus {
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
 }
 
 .focus\:shadow-xl:focus {
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-}
-
-.focus\:shadow-2xl:focus {
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.25);
 }
 
 .focus\:shadow-inner:focus {
   box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
-}
-
-.focus\:shadow-outline:focus {
-  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
 }
 
 .focus\:shadow-none:focus {
@@ -14693,8 +14669,8 @@ video {
 
 .text-secondary {
   --text-opacity: 1;
-  color: #f04;
-  color: rgba(255, 0, 68, var(--text-opacity));
+  color: #f03;
+  color: rgba(255, 0, 51, var(--text-opacity));
 }
 
 .text-tertiary {
@@ -14717,8 +14693,8 @@ video {
 
 .hover\:text-secondary:hover {
   --text-opacity: 1;
-  color: #f04;
-  color: rgba(255, 0, 68, var(--text-opacity));
+  color: #f03;
+  color: rgba(255, 0, 51, var(--text-opacity));
 }
 
 .hover\:text-tertiary:hover {
@@ -14741,8 +14717,8 @@ video {
 
 .focus\:text-secondary:focus {
   --text-opacity: 1;
-  color: #f04;
-  color: rgba(255, 0, 68, var(--text-opacity));
+  color: #f03;
+  color: rgba(255, 0, 51, var(--text-opacity));
 }
 
 .focus\:text-tertiary:focus {
@@ -18026,6 +18002,8 @@ body {
   --text-opacity: 1;
   color: #fff;
   color: rgba(255, 255, 255, var(--text-opacity));
+  line-height: 2;
+  font-weight: 300;
 }
 
 h1 {
@@ -18034,18 +18012,20 @@ h1 {
   font-size: 4rem;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 8rem;
+  margin-top: 4rem;
   margin-bottom: 4rem;
   text-align: center;
 }
 
 h2 {
-  font-weight: 800;
-  line-height: 2rem;
+  font-size: 1.5rem;
 }
 
 p, div, li {
-  line-height: 2rem;
+}
+
+p + p {
+  margin-top: 2rem;
 }
 
 strong {
@@ -18058,10 +18038,9 @@ em {
 }
 
 button {
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
   --bg-opacity: 1;
-  background-color: #f04;
-  background-color: rgba(255, 0, 68, var(--bg-opacity));
+  background-color: #f03;
+  background-color: rgba(255, 0, 51, var(--bg-opacity));
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   padding-left: 1rem;
@@ -18069,15 +18048,22 @@ button {
   margin-top: 2rem;
   margin-bottom: 2rem;
   font-weight: 800;
+  text-transform: uppercase;
+  transition-duration: 200ms;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+}
+
+button:active {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.75);
 }
 
 nav {
   --bg-opacity: 1;
-  background-color: #f04;
-  background-color: rgba(255, 0, 68, var(--bg-opacity));
+  background-color: #f03;
+  background-color: rgba(255, 0, 51, var(--bg-opacity));
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
 }
 
 nav div {
@@ -18100,25 +18086,8 @@ nav a.nav-selected {
   font-weight: 800
 }
 
-a#home {
+nav a#home {
   font-weight: 800
-}
-
-section {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
-section header {
-  grid-column: span 3 / span 3;
-}
-
-section article {
-  grid-column: span 2 / span 2;
-}
-
-section aside {
-  grid-column: span 1 / span 1;
 }
 
 @media (min-width: 640px) {
@@ -19367,8 +19336,8 @@ section aside {
 
   .sm\:bg-tertiary {
     --bg-opacity: 1;
-    background-color: #f04;
-    background-color: rgba(255, 0, 68, var(--bg-opacity));
+    background-color: #f03;
+    background-color: rgba(255, 0, 51, var(--bg-opacity));
   }
 
   .sm\:bg-danger {
@@ -19391,8 +19360,8 @@ section aside {
 
   .sm\:hover\:bg-tertiary:hover {
     --bg-opacity: 1;
-    background-color: #f04;
-    background-color: rgba(255, 0, 68, var(--bg-opacity));
+    background-color: #f03;
+    background-color: rgba(255, 0, 51, var(--bg-opacity));
   }
 
   .sm\:hover\:bg-danger:hover {
@@ -19415,8 +19384,8 @@ section aside {
 
   .sm\:focus\:bg-tertiary:focus {
     --bg-opacity: 1;
-    background-color: #f04;
-    background-color: rgba(255, 0, 68, var(--bg-opacity));
+    background-color: #f03;
+    background-color: rgba(255, 0, 51, var(--bg-opacity));
   }
 
   .sm\:focus\:bg-danger:focus {
@@ -32058,39 +32027,31 @@ section aside {
   }
 
   .sm\:shadow-xs {
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 0 1 rgba(0, 0, 0, 0.2);
   }
 
   .sm\:shadow-sm {
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
   }
 
   .sm\:shadow {
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.9);
   }
 
   .sm\:shadow-md {
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.75);
   }
 
   .sm\:shadow-lg {
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
   }
 
   .sm\:shadow-xl {
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  }
-
-  .sm\:shadow-2xl {
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.25);
   }
 
   .sm\:shadow-inner {
     box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
-  }
-
-  .sm\:shadow-outline {
-    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
   }
 
   .sm\:shadow-none {
@@ -32098,39 +32059,31 @@ section aside {
   }
 
   .sm\:hover\:shadow-xs:hover {
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 0 1 rgba(0, 0, 0, 0.2);
   }
 
   .sm\:hover\:shadow-sm:hover {
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
   }
 
   .sm\:hover\:shadow:hover {
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.9);
   }
 
   .sm\:hover\:shadow-md:hover {
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.75);
   }
 
   .sm\:hover\:shadow-lg:hover {
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
   }
 
   .sm\:hover\:shadow-xl:hover {
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  }
-
-  .sm\:hover\:shadow-2xl:hover {
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.25);
   }
 
   .sm\:hover\:shadow-inner:hover {
     box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
-  }
-
-  .sm\:hover\:shadow-outline:hover {
-    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
   }
 
   .sm\:hover\:shadow-none:hover {
@@ -32138,39 +32091,31 @@ section aside {
   }
 
   .sm\:focus\:shadow-xs:focus {
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 0 1 rgba(0, 0, 0, 0.2);
   }
 
   .sm\:focus\:shadow-sm:focus {
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
   }
 
   .sm\:focus\:shadow:focus {
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.9);
   }
 
   .sm\:focus\:shadow-md:focus {
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.75);
   }
 
   .sm\:focus\:shadow-lg:focus {
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
   }
 
   .sm\:focus\:shadow-xl:focus {
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  }
-
-  .sm\:focus\:shadow-2xl:focus {
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.25);
   }
 
   .sm\:focus\:shadow-inner:focus {
     box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
-  }
-
-  .sm\:focus\:shadow-outline:focus {
-    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
   }
 
   .sm\:focus\:shadow-none:focus {
@@ -32229,8 +32174,8 @@ section aside {
 
   .sm\:text-secondary {
     --text-opacity: 1;
-    color: #f04;
-    color: rgba(255, 0, 68, var(--text-opacity));
+    color: #f03;
+    color: rgba(255, 0, 51, var(--text-opacity));
   }
 
   .sm\:text-tertiary {
@@ -32253,8 +32198,8 @@ section aside {
 
   .sm\:hover\:text-secondary:hover {
     --text-opacity: 1;
-    color: #f04;
-    color: rgba(255, 0, 68, var(--text-opacity));
+    color: #f03;
+    color: rgba(255, 0, 51, var(--text-opacity));
   }
 
   .sm\:hover\:text-tertiary:hover {
@@ -32277,8 +32222,8 @@ section aside {
 
   .sm\:focus\:text-secondary:focus {
     --text-opacity: 1;
-    color: #f04;
-    color: rgba(255, 0, 68, var(--text-opacity));
+    color: #f03;
+    color: rgba(255, 0, 51, var(--text-opacity));
   }
 
   .sm\:focus\:text-tertiary:focus {
@@ -36733,8 +36678,8 @@ section aside {
 
   .md\:bg-tertiary {
     --bg-opacity: 1;
-    background-color: #f04;
-    background-color: rgba(255, 0, 68, var(--bg-opacity));
+    background-color: #f03;
+    background-color: rgba(255, 0, 51, var(--bg-opacity));
   }
 
   .md\:bg-danger {
@@ -36757,8 +36702,8 @@ section aside {
 
   .md\:hover\:bg-tertiary:hover {
     --bg-opacity: 1;
-    background-color: #f04;
-    background-color: rgba(255, 0, 68, var(--bg-opacity));
+    background-color: #f03;
+    background-color: rgba(255, 0, 51, var(--bg-opacity));
   }
 
   .md\:hover\:bg-danger:hover {
@@ -36781,8 +36726,8 @@ section aside {
 
   .md\:focus\:bg-tertiary:focus {
     --bg-opacity: 1;
-    background-color: #f04;
-    background-color: rgba(255, 0, 68, var(--bg-opacity));
+    background-color: #f03;
+    background-color: rgba(255, 0, 51, var(--bg-opacity));
   }
 
   .md\:focus\:bg-danger:focus {
@@ -49424,39 +49369,31 @@ section aside {
   }
 
   .md\:shadow-xs {
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 0 1 rgba(0, 0, 0, 0.2);
   }
 
   .md\:shadow-sm {
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
   }
 
   .md\:shadow {
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.9);
   }
 
   .md\:shadow-md {
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.75);
   }
 
   .md\:shadow-lg {
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
   }
 
   .md\:shadow-xl {
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  }
-
-  .md\:shadow-2xl {
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.25);
   }
 
   .md\:shadow-inner {
     box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
-  }
-
-  .md\:shadow-outline {
-    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
   }
 
   .md\:shadow-none {
@@ -49464,39 +49401,31 @@ section aside {
   }
 
   .md\:hover\:shadow-xs:hover {
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 0 1 rgba(0, 0, 0, 0.2);
   }
 
   .md\:hover\:shadow-sm:hover {
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
   }
 
   .md\:hover\:shadow:hover {
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.9);
   }
 
   .md\:hover\:shadow-md:hover {
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.75);
   }
 
   .md\:hover\:shadow-lg:hover {
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
   }
 
   .md\:hover\:shadow-xl:hover {
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  }
-
-  .md\:hover\:shadow-2xl:hover {
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.25);
   }
 
   .md\:hover\:shadow-inner:hover {
     box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
-  }
-
-  .md\:hover\:shadow-outline:hover {
-    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
   }
 
   .md\:hover\:shadow-none:hover {
@@ -49504,39 +49433,31 @@ section aside {
   }
 
   .md\:focus\:shadow-xs:focus {
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 0 1 rgba(0, 0, 0, 0.2);
   }
 
   .md\:focus\:shadow-sm:focus {
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
   }
 
   .md\:focus\:shadow:focus {
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.9);
   }
 
   .md\:focus\:shadow-md:focus {
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.75);
   }
 
   .md\:focus\:shadow-lg:focus {
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
   }
 
   .md\:focus\:shadow-xl:focus {
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  }
-
-  .md\:focus\:shadow-2xl:focus {
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.25);
   }
 
   .md\:focus\:shadow-inner:focus {
     box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
-  }
-
-  .md\:focus\:shadow-outline:focus {
-    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
   }
 
   .md\:focus\:shadow-none:focus {
@@ -49595,8 +49516,8 @@ section aside {
 
   .md\:text-secondary {
     --text-opacity: 1;
-    color: #f04;
-    color: rgba(255, 0, 68, var(--text-opacity));
+    color: #f03;
+    color: rgba(255, 0, 51, var(--text-opacity));
   }
 
   .md\:text-tertiary {
@@ -49619,8 +49540,8 @@ section aside {
 
   .md\:hover\:text-secondary:hover {
     --text-opacity: 1;
-    color: #f04;
-    color: rgba(255, 0, 68, var(--text-opacity));
+    color: #f03;
+    color: rgba(255, 0, 51, var(--text-opacity));
   }
 
   .md\:hover\:text-tertiary:hover {
@@ -49643,8 +49564,8 @@ section aside {
 
   .md\:focus\:text-secondary:focus {
     --text-opacity: 1;
-    color: #f04;
-    color: rgba(255, 0, 68, var(--text-opacity));
+    color: #f03;
+    color: rgba(255, 0, 51, var(--text-opacity));
   }
 
   .md\:focus\:text-tertiary:focus {
@@ -54099,8 +54020,8 @@ section aside {
 
   .lg\:bg-tertiary {
     --bg-opacity: 1;
-    background-color: #f04;
-    background-color: rgba(255, 0, 68, var(--bg-opacity));
+    background-color: #f03;
+    background-color: rgba(255, 0, 51, var(--bg-opacity));
   }
 
   .lg\:bg-danger {
@@ -54123,8 +54044,8 @@ section aside {
 
   .lg\:hover\:bg-tertiary:hover {
     --bg-opacity: 1;
-    background-color: #f04;
-    background-color: rgba(255, 0, 68, var(--bg-opacity));
+    background-color: #f03;
+    background-color: rgba(255, 0, 51, var(--bg-opacity));
   }
 
   .lg\:hover\:bg-danger:hover {
@@ -54147,8 +54068,8 @@ section aside {
 
   .lg\:focus\:bg-tertiary:focus {
     --bg-opacity: 1;
-    background-color: #f04;
-    background-color: rgba(255, 0, 68, var(--bg-opacity));
+    background-color: #f03;
+    background-color: rgba(255, 0, 51, var(--bg-opacity));
   }
 
   .lg\:focus\:bg-danger:focus {
@@ -66790,39 +66711,31 @@ section aside {
   }
 
   .lg\:shadow-xs {
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 0 1 rgba(0, 0, 0, 0.2);
   }
 
   .lg\:shadow-sm {
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
   }
 
   .lg\:shadow {
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.9);
   }
 
   .lg\:shadow-md {
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.75);
   }
 
   .lg\:shadow-lg {
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
   }
 
   .lg\:shadow-xl {
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  }
-
-  .lg\:shadow-2xl {
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.25);
   }
 
   .lg\:shadow-inner {
     box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
-  }
-
-  .lg\:shadow-outline {
-    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
   }
 
   .lg\:shadow-none {
@@ -66830,39 +66743,31 @@ section aside {
   }
 
   .lg\:hover\:shadow-xs:hover {
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 0 1 rgba(0, 0, 0, 0.2);
   }
 
   .lg\:hover\:shadow-sm:hover {
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
   }
 
   .lg\:hover\:shadow:hover {
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.9);
   }
 
   .lg\:hover\:shadow-md:hover {
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.75);
   }
 
   .lg\:hover\:shadow-lg:hover {
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
   }
 
   .lg\:hover\:shadow-xl:hover {
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  }
-
-  .lg\:hover\:shadow-2xl:hover {
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.25);
   }
 
   .lg\:hover\:shadow-inner:hover {
     box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
-  }
-
-  .lg\:hover\:shadow-outline:hover {
-    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
   }
 
   .lg\:hover\:shadow-none:hover {
@@ -66870,39 +66775,31 @@ section aside {
   }
 
   .lg\:focus\:shadow-xs:focus {
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 0 1 rgba(0, 0, 0, 0.2);
   }
 
   .lg\:focus\:shadow-sm:focus {
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
   }
 
   .lg\:focus\:shadow:focus {
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.9);
   }
 
   .lg\:focus\:shadow-md:focus {
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.75);
   }
 
   .lg\:focus\:shadow-lg:focus {
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
   }
 
   .lg\:focus\:shadow-xl:focus {
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  }
-
-  .lg\:focus\:shadow-2xl:focus {
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.25);
   }
 
   .lg\:focus\:shadow-inner:focus {
     box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
-  }
-
-  .lg\:focus\:shadow-outline:focus {
-    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
   }
 
   .lg\:focus\:shadow-none:focus {
@@ -66961,8 +66858,8 @@ section aside {
 
   .lg\:text-secondary {
     --text-opacity: 1;
-    color: #f04;
-    color: rgba(255, 0, 68, var(--text-opacity));
+    color: #f03;
+    color: rgba(255, 0, 51, var(--text-opacity));
   }
 
   .lg\:text-tertiary {
@@ -66985,8 +66882,8 @@ section aside {
 
   .lg\:hover\:text-secondary:hover {
     --text-opacity: 1;
-    color: #f04;
-    color: rgba(255, 0, 68, var(--text-opacity));
+    color: #f03;
+    color: rgba(255, 0, 51, var(--text-opacity));
   }
 
   .lg\:hover\:text-tertiary:hover {
@@ -67009,8 +66906,8 @@ section aside {
 
   .lg\:focus\:text-secondary:focus {
     --text-opacity: 1;
-    color: #f04;
-    color: rgba(255, 0, 68, var(--text-opacity));
+    color: #f03;
+    color: rgba(255, 0, 51, var(--text-opacity));
   }
 
   .lg\:focus\:text-tertiary:focus {
@@ -71465,8 +71362,8 @@ section aside {
 
   .xl\:bg-tertiary {
     --bg-opacity: 1;
-    background-color: #f04;
-    background-color: rgba(255, 0, 68, var(--bg-opacity));
+    background-color: #f03;
+    background-color: rgba(255, 0, 51, var(--bg-opacity));
   }
 
   .xl\:bg-danger {
@@ -71489,8 +71386,8 @@ section aside {
 
   .xl\:hover\:bg-tertiary:hover {
     --bg-opacity: 1;
-    background-color: #f04;
-    background-color: rgba(255, 0, 68, var(--bg-opacity));
+    background-color: #f03;
+    background-color: rgba(255, 0, 51, var(--bg-opacity));
   }
 
   .xl\:hover\:bg-danger:hover {
@@ -71513,8 +71410,8 @@ section aside {
 
   .xl\:focus\:bg-tertiary:focus {
     --bg-opacity: 1;
-    background-color: #f04;
-    background-color: rgba(255, 0, 68, var(--bg-opacity));
+    background-color: #f03;
+    background-color: rgba(255, 0, 51, var(--bg-opacity));
   }
 
   .xl\:focus\:bg-danger:focus {
@@ -84156,39 +84053,31 @@ section aside {
   }
 
   .xl\:shadow-xs {
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 0 1 rgba(0, 0, 0, 0.2);
   }
 
   .xl\:shadow-sm {
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
   }
 
   .xl\:shadow {
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.9);
   }
 
   .xl\:shadow-md {
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.75);
   }
 
   .xl\:shadow-lg {
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
   }
 
   .xl\:shadow-xl {
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  }
-
-  .xl\:shadow-2xl {
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.25);
   }
 
   .xl\:shadow-inner {
     box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
-  }
-
-  .xl\:shadow-outline {
-    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
   }
 
   .xl\:shadow-none {
@@ -84196,39 +84085,31 @@ section aside {
   }
 
   .xl\:hover\:shadow-xs:hover {
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 0 1 rgba(0, 0, 0, 0.2);
   }
 
   .xl\:hover\:shadow-sm:hover {
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
   }
 
   .xl\:hover\:shadow:hover {
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.9);
   }
 
   .xl\:hover\:shadow-md:hover {
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.75);
   }
 
   .xl\:hover\:shadow-lg:hover {
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
   }
 
   .xl\:hover\:shadow-xl:hover {
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  }
-
-  .xl\:hover\:shadow-2xl:hover {
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.25);
   }
 
   .xl\:hover\:shadow-inner:hover {
     box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
-  }
-
-  .xl\:hover\:shadow-outline:hover {
-    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
   }
 
   .xl\:hover\:shadow-none:hover {
@@ -84236,39 +84117,31 @@ section aside {
   }
 
   .xl\:focus\:shadow-xs:focus {
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 0 1 rgba(0, 0, 0, 0.2);
   }
 
   .xl\:focus\:shadow-sm:focus {
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
   }
 
   .xl\:focus\:shadow:focus {
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.9);
   }
 
   .xl\:focus\:shadow-md:focus {
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.75);
   }
 
   .xl\:focus\:shadow-lg:focus {
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
   }
 
   .xl\:focus\:shadow-xl:focus {
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  }
-
-  .xl\:focus\:shadow-2xl:focus {
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.25);
   }
 
   .xl\:focus\:shadow-inner:focus {
     box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
-  }
-
-  .xl\:focus\:shadow-outline:focus {
-    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
   }
 
   .xl\:focus\:shadow-none:focus {
@@ -84327,8 +84200,8 @@ section aside {
 
   .xl\:text-secondary {
     --text-opacity: 1;
-    color: #f04;
-    color: rgba(255, 0, 68, var(--text-opacity));
+    color: #f03;
+    color: rgba(255, 0, 51, var(--text-opacity));
   }
 
   .xl\:text-tertiary {
@@ -84351,8 +84224,8 @@ section aside {
 
   .xl\:hover\:text-secondary:hover {
     --text-opacity: 1;
-    color: #f04;
-    color: rgba(255, 0, 68, var(--text-opacity));
+    color: #f03;
+    color: rgba(255, 0, 51, var(--text-opacity));
   }
 
   .xl\:hover\:text-tertiary:hover {
@@ -84375,8 +84248,8 @@ section aside {
 
   .xl\:focus\:text-secondary:focus {
     --text-opacity: 1;
-    color: #f04;
-    color: rgba(255, 0, 68, var(--text-opacity));
+    color: #f03;
+    color: rgba(255, 0, 51, var(--text-opacity));
   }
 
   .xl\:focus\:text-tertiary:focus {
@@ -87584,3 +87457,4 @@ section aside {
             animation: bounce 1s infinite;
   }
 }
+

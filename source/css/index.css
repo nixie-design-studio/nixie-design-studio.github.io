@@ -8,6 +8,8 @@ body {
   @apply .font-body;
   @apply .bg-primary;
   @apply .text-primary;
+  @apply .leading-loose;
+  @apply .font-light;
 }
 
 h1 {
@@ -15,18 +17,20 @@ h1 {
   @apply .font-extrabold;
   @apply .text-6xl;
   @apply .mx-auto;
-  @apply .mt-32;
+  @apply .mt-16;
   @apply .mb-16;
   @apply .text-center;
 }
 
 h2 {
-  @apply .font-extrabold;
-  @apply .leading-8;
+  @apply .text-2xl;
 }
 
 p, div, li {
-  @apply .leading-8;
+}
+
+p + p {
+  @apply .mt-8;
 }
 
 strong {
@@ -40,7 +44,6 @@ em {
 }
 
 button {
-  @apply .shadow-xl;
   @apply .bg-tertiary;
   @apply .pt-2;
   @apply .pb-2;
@@ -49,6 +52,13 @@ button {
   @apply .mt-8;
   @apply .mb-8;
   @apply .font-extrabold;
+  @apply .uppercase;
+  @apply .duration-200;
+  @apply .shadow-lg;
+}
+
+button:active {
+  @apply .shadow-md;
 }
 
 nav {
@@ -78,23 +88,7 @@ nav a.nav-selected {
   @apply .font-extrabold
 }
 
-a#home {
+nav a#home {
   @apply .font-extrabold
 }
 
-section {
-  @apply .grid;
-  @apply .grid-cols-3;
-}
-
-section header {
-  @apply .col-span-3;
-}
-
-section article {
-  @apply .col-span-2;
-}
-
-section aside {
-  @apply .col-span-1;
-}
