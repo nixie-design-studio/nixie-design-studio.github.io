@@ -18020,28 +18020,34 @@ h1 {
 }
 
 h2 {
+  font-family: "Libre Franklin", "Helvetica Neue", sans-serif;
   font-weight: 800;
   font-size: 1.5rem;
 }
 
 h3 {
+  font-family: "Libre Franklin", "Helvetica Neue", sans-serif;
   font-size: 1.5rem;
 }
 
 h4 {
+  font-family: "Libre Franklin", "Helvetica Neue", sans-serif;
   font-weight: 800;
 }
 
 h5 {
+  font-family: "Libre Franklin", "Helvetica Neue", sans-serif;
   font-weight: 600;
 }
 
 h6 {
+  font-family: "Libre Franklin", "Helvetica Neue", sans-serif;
   font-weight: 600;
   text-transform: uppercase
 }
 
 p, div, li {
+  font-family: "Libre Franklin", "Helvetica Neue", sans-serif;
 }
 
 p + p {
@@ -18122,6 +18128,10 @@ nav a#home {
      object-fit: fill;
 }
 
+#portfolio img + img {
+  @apply: .pt-8;
+}
+
 #portfolio button {
   @apply: .pb-none;
 }
@@ -18132,6 +18142,25 @@ div.break-lg {
 
 div.break-xl {
   height: 16rem;
+}
+
+section#experience div {
+  line-height: 1.5;
+}
+
+section#experience ul {
+  list-style-type: none;
+  list-style-position: outside;
+}
+
+section#experience li:before {
+  content: '\25AA';
+  float: left;
+  margin-left: -1rem;
+}
+
+section#experience article + article {
+  margin-top: 2rem;
 }
 
 @media (min-width: 640px) {
