@@ -590,6 +590,8 @@ video {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 @media (min-width: 640px) {
@@ -1831,8 +1833,8 @@ video {
 
 .bg-tertiary {
   --bg-opacity: 1;
-  background-color: #f03;
-  background-color: rgba(255, 0, 51, var(--bg-opacity));
+  background-color: #f04;
+  background-color: rgba(255, 0, 68, var(--bg-opacity));
 }
 
 .bg-danger {
@@ -1855,8 +1857,8 @@ video {
 
 .hover\:bg-tertiary:hover {
   --bg-opacity: 1;
-  background-color: #f03;
-  background-color: rgba(255, 0, 51, var(--bg-opacity));
+  background-color: #f04;
+  background-color: rgba(255, 0, 68, var(--bg-opacity));
 }
 
 .hover\:bg-danger:hover {
@@ -1879,8 +1881,8 @@ video {
 
 .focus\:bg-tertiary:focus {
   --bg-opacity: 1;
-  background-color: #f03;
-  background-color: rgba(255, 0, 51, var(--bg-opacity));
+  background-color: #f04;
+  background-color: rgba(255, 0, 68, var(--bg-opacity));
 }
 
 .focus\:bg-danger:focus {
@@ -18039,8 +18041,8 @@ em {
 
 button {
   --bg-opacity: 1;
-  background-color: #f03;
-  background-color: rgba(255, 0, 51, var(--bg-opacity));
+  background-color: #f04;
+  background-color: rgba(255, 0, 68, var(--bg-opacity));
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   padding-left: 1rem;
@@ -18059,8 +18061,8 @@ button:active {
 
 nav {
   --bg-opacity: 1;
-  background-color: #f03;
-  background-color: rgba(255, 0, 51, var(--bg-opacity));
+  background-color: #f04;
+  background-color: rgba(255, 0, 68, var(--bg-opacity));
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
@@ -18095,6 +18097,8 @@ nav a#home {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
   }
 
   @media (min-width: 640px) {
@@ -19336,8 +19340,8 @@ nav a#home {
 
   .sm\:bg-tertiary {
     --bg-opacity: 1;
-    background-color: #f03;
-    background-color: rgba(255, 0, 51, var(--bg-opacity));
+    background-color: #f04;
+    background-color: rgba(255, 0, 68, var(--bg-opacity));
   }
 
   .sm\:bg-danger {
@@ -19360,8 +19364,8 @@ nav a#home {
 
   .sm\:hover\:bg-tertiary:hover {
     --bg-opacity: 1;
-    background-color: #f03;
-    background-color: rgba(255, 0, 51, var(--bg-opacity));
+    background-color: #f04;
+    background-color: rgba(255, 0, 68, var(--bg-opacity));
   }
 
   .sm\:hover\:bg-danger:hover {
@@ -19384,8 +19388,8 @@ nav a#home {
 
   .sm\:focus\:bg-tertiary:focus {
     --bg-opacity: 1;
-    background-color: #f03;
-    background-color: rgba(255, 0, 51, var(--bg-opacity));
+    background-color: #f04;
+    background-color: rgba(255, 0, 68, var(--bg-opacity));
   }
 
   .sm\:focus\:bg-danger:focus {
@@ -35437,6 +35441,8 @@ nav a#home {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
   }
 
   @media (min-width: 640px) {
@@ -36678,8 +36684,8 @@ nav a#home {
 
   .md\:bg-tertiary {
     --bg-opacity: 1;
-    background-color: #f03;
-    background-color: rgba(255, 0, 51, var(--bg-opacity));
+    background-color: #f04;
+    background-color: rgba(255, 0, 68, var(--bg-opacity));
   }
 
   .md\:bg-danger {
@@ -36702,8 +36708,8 @@ nav a#home {
 
   .md\:hover\:bg-tertiary:hover {
     --bg-opacity: 1;
-    background-color: #f03;
-    background-color: rgba(255, 0, 51, var(--bg-opacity));
+    background-color: #f04;
+    background-color: rgba(255, 0, 68, var(--bg-opacity));
   }
 
   .md\:hover\:bg-danger:hover {
@@ -36726,8 +36732,8 @@ nav a#home {
 
   .md\:focus\:bg-tertiary:focus {
     --bg-opacity: 1;
-    background-color: #f03;
-    background-color: rgba(255, 0, 51, var(--bg-opacity));
+    background-color: #f04;
+    background-color: rgba(255, 0, 68, var(--bg-opacity));
   }
 
   .md\:focus\:bg-danger:focus {
@@ -52779,6 +52785,8 @@ nav a#home {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
   }
 
   @media (min-width: 640px) {
@@ -54020,8 +54028,8 @@ nav a#home {
 
   .lg\:bg-tertiary {
     --bg-opacity: 1;
-    background-color: #f03;
-    background-color: rgba(255, 0, 51, var(--bg-opacity));
+    background-color: #f04;
+    background-color: rgba(255, 0, 68, var(--bg-opacity));
   }
 
   .lg\:bg-danger {
@@ -54044,8 +54052,8 @@ nav a#home {
 
   .lg\:hover\:bg-tertiary:hover {
     --bg-opacity: 1;
-    background-color: #f03;
-    background-color: rgba(255, 0, 51, var(--bg-opacity));
+    background-color: #f04;
+    background-color: rgba(255, 0, 68, var(--bg-opacity));
   }
 
   .lg\:hover\:bg-danger:hover {
@@ -54068,8 +54076,8 @@ nav a#home {
 
   .lg\:focus\:bg-tertiary:focus {
     --bg-opacity: 1;
-    background-color: #f03;
-    background-color: rgba(255, 0, 51, var(--bg-opacity));
+    background-color: #f04;
+    background-color: rgba(255, 0, 68, var(--bg-opacity));
   }
 
   .lg\:focus\:bg-danger:focus {
@@ -70121,6 +70129,8 @@ nav a#home {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
   }
 
   @media (min-width: 640px) {
@@ -71362,8 +71372,8 @@ nav a#home {
 
   .xl\:bg-tertiary {
     --bg-opacity: 1;
-    background-color: #f03;
-    background-color: rgba(255, 0, 51, var(--bg-opacity));
+    background-color: #f04;
+    background-color: rgba(255, 0, 68, var(--bg-opacity));
   }
 
   .xl\:bg-danger {
@@ -71386,8 +71396,8 @@ nav a#home {
 
   .xl\:hover\:bg-tertiary:hover {
     --bg-opacity: 1;
-    background-color: #f03;
-    background-color: rgba(255, 0, 51, var(--bg-opacity));
+    background-color: #f04;
+    background-color: rgba(255, 0, 68, var(--bg-opacity));
   }
 
   .xl\:hover\:bg-danger:hover {
@@ -71410,8 +71420,8 @@ nav a#home {
 
   .xl\:focus\:bg-tertiary:focus {
     --bg-opacity: 1;
-    background-color: #f03;
-    background-color: rgba(255, 0, 51, var(--bg-opacity));
+    background-color: #f04;
+    background-color: rgba(255, 0, 68, var(--bg-opacity));
   }
 
   .xl\:focus\:bg-danger:focus {
