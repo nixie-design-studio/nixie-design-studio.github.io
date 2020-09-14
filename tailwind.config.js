@@ -7,9 +7,13 @@ module.exports = {
     backgroundColor: theme => ({
       'primary': '#333',
       'secondary': '#000',
-      'tertiary': '#f03',
+      'tertiary': '#f04',
       'danger': '#f04'
     }),
+    container: {
+      center: true,
+      padding: '1rem',
+    },
     fontFamily: theme => ({
       display: [
         '"Libre Franklin"',
