@@ -23,7 +23,25 @@ h1 {
 }
 
 h2 {
+  @apply .font-extrabold;
   @apply .text-2xl;
+}
+
+h3 {
+  @apply .text-2xl;
+}
+
+h4 {
+  @apply .font-extrabold;
+}
+
+h5 {
+  @apply .font-semibold;
+}
+
+h6 {
+  @apply .font-semibold;
+  @apply .uppercase
 }
 
 p, div, li {
@@ -85,10 +103,32 @@ nav ul li {
 }
 
 nav a.nav-selected {
-  @apply .font-extrabold
+  @apply .font-extrabold;
 }
 
 nav a#home {
-  @apply .font-extrabold
+  @apply .font-extrabold;
 }
 
+#portfolio article {
+  @apply .pt-8;
+}
+
+#portfolio img {
+  @apply .relative;
+  top: 4rem;
+  @apply .shadow-lg;
+  @apply .object-fill;
+}
+
+#portfolio button {
+  @apply: .pb-none;
+}
+
+div.break-lg {
+  height: 8rem;
+}
+
+div.break-xl {
+  height: 16rem;
+}

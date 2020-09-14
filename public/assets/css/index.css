@@ -18020,7 +18020,25 @@ h1 {
 }
 
 h2 {
+  font-weight: 800;
   font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-weight: 800;
+}
+
+h5 {
+  font-weight: 600;
+}
+
+h6 {
+  font-weight: 600;
+  text-transform: uppercase
 }
 
 p, div, li {
@@ -18085,11 +18103,35 @@ nav ul li {
 }
 
 nav a.nav-selected {
-  font-weight: 800
+  font-weight: 800;
 }
 
 nav a#home {
-  font-weight: 800
+  font-weight: 800;
+}
+
+#portfolio article {
+  padding-top: 2rem;
+}
+
+#portfolio img {
+  position: relative;
+  top: 4rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+#portfolio button {
+  @apply: .pb-none;
+}
+
+div.break-lg {
+  height: 8rem;
+}
+
+div.break-xl {
+  height: 16rem;
 }
 
 @media (min-width: 640px) {
@@ -87467,4 +87509,3 @@ nav a#home {
             animation: bounce 1s infinite;
   }
 }
-
