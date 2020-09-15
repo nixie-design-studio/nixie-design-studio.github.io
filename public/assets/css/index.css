@@ -1837,6 +1837,10 @@ video {
   background-color: rgba(255, 0, 68, var(--bg-opacity));
 }
 
+.bg-transparent {
+  background-color: transparent;
+}
+
 .bg-danger {
   --bg-opacity: 1;
   background-color: #f04;
@@ -1861,6 +1865,10 @@ video {
   background-color: rgba(255, 0, 68, var(--bg-opacity));
 }
 
+.hover\:bg-transparent:hover {
+  background-color: transparent;
+}
+
 .hover\:bg-danger:hover {
   --bg-opacity: 1;
   background-color: #f04;
@@ -1883,6 +1891,10 @@ video {
   --bg-opacity: 1;
   background-color: #f04;
   background-color: rgba(255, 0, 68, var(--bg-opacity));
+}
+
+.focus\:bg-transparent:focus {
+  background-color: transparent;
 }
 
 .focus\:bg-danger:focus {
@@ -18079,8 +18091,32 @@ button {
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
 }
 
+button.button-tertiary {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.875rem;
+  transition-duration: 200ms;
+  box-shadow: none;
+}
+
 button:active {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.75);
+}
+
+button.button-tertiary:active {
+  box-shadow: none;
+  --text-opacity: 1;
+  color: #f03;
+  color: rgba(255, 0, 51, var(--text-opacity));
 }
 
 nav {
@@ -18161,6 +18197,39 @@ section#experience li:before {
 
 section#experience article + article {
   margin-top: 2rem;
+}
+
+div.quotemark {
+  vertical-align: top;
+  font-weight: 800;
+  --text-opacity: 1;
+  color: #f03;
+  color: rgba(255, 0, 51, var(--text-opacity));
+  font-size: 4rem;
+  text-align: right;
+  position: relative;
+  top: -2.5rem;
+}
+
+div.quotation {
+  font-weight: 600;
+}
+
+div.quotation p.cite {
+  font-weight: 300;
+  line-height: 1.5;
+  text-indent: -1rem;
+  padding-left: 1rem;
+  padding-bottom: 2rem;
+}
+
+footer {
+  --bg-opacity: 1;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, var(--bg-opacity));
+  font-size: 0.75rem;
+  line-height: 1.5;
+  padding: 1rem;
 }
 
 @media (min-width: 640px) {
@@ -19415,6 +19484,10 @@ section#experience article + article {
     background-color: rgba(255, 0, 68, var(--bg-opacity));
   }
 
+  .sm\:bg-transparent {
+    background-color: transparent;
+  }
+
   .sm\:bg-danger {
     --bg-opacity: 1;
     background-color: #f04;
@@ -19439,6 +19512,10 @@ section#experience article + article {
     background-color: rgba(255, 0, 68, var(--bg-opacity));
   }
 
+  .sm\:hover\:bg-transparent:hover {
+    background-color: transparent;
+  }
+
   .sm\:hover\:bg-danger:hover {
     --bg-opacity: 1;
     background-color: #f04;
@@ -19461,6 +19538,10 @@ section#experience article + article {
     --bg-opacity: 1;
     background-color: #f04;
     background-color: rgba(255, 0, 68, var(--bg-opacity));
+  }
+
+  .sm\:focus\:bg-transparent:focus {
+    background-color: transparent;
   }
 
   .sm\:focus\:bg-danger:focus {
@@ -36759,6 +36840,10 @@ section#experience article + article {
     background-color: rgba(255, 0, 68, var(--bg-opacity));
   }
 
+  .md\:bg-transparent {
+    background-color: transparent;
+  }
+
   .md\:bg-danger {
     --bg-opacity: 1;
     background-color: #f04;
@@ -36783,6 +36868,10 @@ section#experience article + article {
     background-color: rgba(255, 0, 68, var(--bg-opacity));
   }
 
+  .md\:hover\:bg-transparent:hover {
+    background-color: transparent;
+  }
+
   .md\:hover\:bg-danger:hover {
     --bg-opacity: 1;
     background-color: #f04;
@@ -36805,6 +36894,10 @@ section#experience article + article {
     --bg-opacity: 1;
     background-color: #f04;
     background-color: rgba(255, 0, 68, var(--bg-opacity));
+  }
+
+  .md\:focus\:bg-transparent:focus {
+    background-color: transparent;
   }
 
   .md\:focus\:bg-danger:focus {
@@ -54103,6 +54196,10 @@ section#experience article + article {
     background-color: rgba(255, 0, 68, var(--bg-opacity));
   }
 
+  .lg\:bg-transparent {
+    background-color: transparent;
+  }
+
   .lg\:bg-danger {
     --bg-opacity: 1;
     background-color: #f04;
@@ -54127,6 +54224,10 @@ section#experience article + article {
     background-color: rgba(255, 0, 68, var(--bg-opacity));
   }
 
+  .lg\:hover\:bg-transparent:hover {
+    background-color: transparent;
+  }
+
   .lg\:hover\:bg-danger:hover {
     --bg-opacity: 1;
     background-color: #f04;
@@ -54149,6 +54250,10 @@ section#experience article + article {
     --bg-opacity: 1;
     background-color: #f04;
     background-color: rgba(255, 0, 68, var(--bg-opacity));
+  }
+
+  .lg\:focus\:bg-transparent:focus {
+    background-color: transparent;
   }
 
   .lg\:focus\:bg-danger:focus {
@@ -71447,6 +71552,10 @@ section#experience article + article {
     background-color: rgba(255, 0, 68, var(--bg-opacity));
   }
 
+  .xl\:bg-transparent {
+    background-color: transparent;
+  }
+
   .xl\:bg-danger {
     --bg-opacity: 1;
     background-color: #f04;
@@ -71471,6 +71580,10 @@ section#experience article + article {
     background-color: rgba(255, 0, 68, var(--bg-opacity));
   }
 
+  .xl\:hover\:bg-transparent:hover {
+    background-color: transparent;
+  }
+
   .xl\:hover\:bg-danger:hover {
     --bg-opacity: 1;
     background-color: #f04;
@@ -71493,6 +71606,10 @@ section#experience article + article {
     --bg-opacity: 1;
     background-color: #f04;
     background-color: rgba(255, 0, 68, var(--bg-opacity));
+  }
+
+  .xl\:focus\:bg-transparent:focus {
+    background-color: transparent;
   }
 
   .xl\:focus\:bg-danger:focus {

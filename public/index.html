@@ -3,12 +3,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="assets/css/index.css">
-  <script src="https://cdn.jsdeliver.net/gh/alpinejs/alpine@v2.7.0/dist/alpine.min.js" defer></script>
+  <meta name="keywords" content="kylie, jack, ux strategy, product design, product management, ui design, ux design, interaction design, user research, usability">
+  <meta name="description" content="I'm a product and UX designer with over 16 years of design experience, and 25 years in the software industry. I specialize in advocacy and organizational maturity in design thinking, user-centered design, and user experience strategy.">
+  <meta name="author" content="kylie jack">
   <title>kylie jack: ux advocacy and design transformation</title>
+  <link rel="stylesheet" href="assets/css/index.css">
+  <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
 </head>
+
 <body name="top">
+  <!-- fixed header -->
   <div class="flex flex-col h-screen">
+
+    <!-- navigation -->
     <nav>
       <div class="container">
         <a id="home" href="#top">Kylie Jack</a>
@@ -20,17 +27,21 @@
         </ul>
       </div>
     </nav>
+
+    <!-- main scrolling area -->
     <main class="flex-1 overflow-y-auto">
+
+      <!-- about -->
       <section id="about">
-        <div class="container grid grid-cols-1 lg:grid-cols-12">
+        <div class="container grid grid-cols-1 lg:grid-cols-12 gap-4">
           <header class="lg:col-span-12"><h1>Hello, I’m Kylie.</h1></header>
         </div>
-        <div class="container grid grid-cols-1 lg:grid-cols-12">
+        <div class="container grid grid-cols-1 lg:grid-cols-12 gap-4">
           <article class="max-w-2xl lg:col-span-7">
-            <h2>UX Advocacy and Design transformation</h2>
-            <p>I’m a Product Designer and UX strategist with over 25 years of experience in software development and design. I am a problem solver and systems thinker. I craft and evolve products and services to make a positive impact on people's daily lives, from work to play.
+            <h2>UX advocacy and design transformation</h2>
+            <p>I’m a Product Designer and UX strategist with over 25 years of experience in software development and design. I am a problem solver and systems thinker. I craft and evolve products and services to make a positive impact on people’s daily lives, from work to play.
             </p>
-            <p>I've worked in a variety of roles (developer, designer, researcher, project manager), but I focus on user experience design and leadership, because I love engaging directly with users and customers. My specialties include product development, design team management, interaction design, information architecture, user research, and usability testing.
+            <p>I’ve worked in a variety of roles (developer, designer, researcher, project manager), but I focus on user experience design and leadership, because I love engaging directly with users and customers. My specialties include product development, design team management, interaction design, information architecture, user research, and usability testing.
             </p>
             <button>Read more</button>
           </article>
@@ -47,16 +58,20 @@
           </aside>
         </div>
       </section>
+
+      <!-- portfolio -->
       <section id="portfolio">
-        <div class="container grid grid-cols-1 lg:grid-cols-12">
+        <div class="container grid grid-cols-1 lg:grid-cols-12 gap-4">
           <header class="lg:col-span-12"><h1>Portfolio</h1></header>
         </div>
+
+        <!-- enterprise case study -->
         <div class="bg-secondary">
           <div class="container grid grid-cols-1 lg:grid-cols-12 gap-4">
             <article class="max-w-2xl lg:col-span-12">
               <h6>Case Study</h6>
               <h2>Desiging an enterprise technical support tool</h2>
-              <p>Leveraging prior research, I created scenarios, flows and an interactive prototype to inform development of a new enterprise technical support tool for a large computer manufacturer's customer support staff.</p>
+              <p>Leveraging prior research, I created scenarios, flows and an interactive prototype to inform development of a new enterprise technical support tool for a large computer manufacturer’s customer support staff.</p>
             <button>Read More</button>
             </article>
             <div class="lg:col-span-4"><img class="lg:h-64" src="/assets/images/enterprise1.png"></div>
@@ -65,6 +80,8 @@
           </div>
         </div>
         <div class="break-xl"></div>
+
+        <!-- lighting case study -->
         <div class="bg-secondary">
           <div class="container grid grid-cols-1 lg:grid-cols-12 gap-4">
             <div class="col-span-1"></div>
@@ -87,10 +104,17 @@
         </div>
         <div class="break-lg"></div>
       </section>
+
+      <!-- experience -->
       <section id="experience" class="container grid grid-cols-1">
         <header><h1>Experience</h1></header>
-        <article class="container grid grid-cols-1 lg:grid-cols-12">
-          <div class="lg:col-span-3 lg:text-right">Jan 2020 – Sep 2020<h5>Big Fish Games</h5></div>
+        
+        <!-- big fish games bfg ux ui designer -->
+        <article class="container grid grid-cols-1 lg:grid-cols-12 gap-4">
+          <div class="lg:col-span-3 lg:text-right">
+            <div class="dates-worked">Jan 2020 – Sep 2020</div>
+            <h5>Big Fish Games</h5>
+          </div>
           <div class="lg:col-span-1"></div>
           <div class="lg:col-span-8">
             <h4>Sr UX/UI Designer</h4>
@@ -101,83 +125,122 @@
               <li>Developed criteria and heuristics tailored to game design in order to have a consistent company-wide UX evaluation process.</li>
               <li>Games: Gummy Drop, Decurse, Knittens, Coin Heist</li>
             </ul>
+            <div x-data="{ more_bfg: false }">
+              <button class="button-tertiary" @click="more_bfg = !more_bfg" x-text="more_bfg ? '« less' : 'more »'"></button>
+              <div x-show="more_bfg">arhdsjadshakD djk DSHJK Da</div>
+            </div>
           </div>
         </article>
-        <article class="container grid grid-cols-1 lg:grid-cols-12">
-          <div class="lg:col-span-3 lg:text-right">Jan 2020 – Sep 2020<h5>Big Fish Games</h5></div>
+
+        <!-- projekt202 p202 design manager -->
+        <article class="container grid grid-cols-1 lg:grid-cols-12 gap-4">
+          <div class="lg:col-span-3 lg:text-right">
+            <div class="dates-worked">Date</div>
+            <h5>Company</h5></div>
           <div class="lg:col-span-1"></div>
           <div class="lg:col-span-8">
-            <h4>Sr UX/UI Designer</h4>
+            <h4>Position</h4>
             <ul>
-              <li>Provided UX/UI consulting for mobile and causal games to in-house and external studios. </li>
-
-              <li>Wireframed, prototyped, and assisted in UI design for user onboarding, social and community features, and other meta-game experiences.</li>
-              <li>Developed criteria and heuristics tailored to game design in order to have a consistent company-wide UX evaluation process.</li>
-              <li>Games: Gummy Drop, Decurse, Knittens, Coin Heist</li>
+              <li>Actions</li>
             </ul>
+            <div x-data="{ more_p202_mgr: false }">
+              <button class="button-tertiary" @click="more_p202_mgr = !more_p202_mgr" x-text="more_p202_mgr ? '« less' : 'more »'"></button>
+              <div x-show="more_p202_mgr">details</div>
+            </div>
           </div>
         </article>
-        <article class="container grid grid-cols-1 lg:grid-cols-12">
-          <div class="lg:col-span-3 lg:text-right">Jan 2020 – Sep 2020<h5>Big Fish Games</h5></div>
-          <div class="lg:col-span-1"></div>
-          <div class="lg:col-span-8">
-            <h4>Sr UX/UI Designer</h4>
-            <ul>
-              <li>Provided UX/UI consulting for mobile and causal games to in-house and external studios. </li>
 
-              <li>Wireframed, prototyped, and assisted in UI design for user onboarding, social and community features, and other meta-game experiences.</li>
-              <li>Developed criteria and heuristics tailored to game design in order to have a consistent company-wide UX evaluation process.</li>
-              <li>Games: Gummy Drop, Decurse, Knittens, Coin Heist</li>
-            </ul>
-          </div>
-        </article>
-        <article class="container grid grid-cols-1 lg:grid-cols-12">
-          <div class="lg:col-span-3 lg:text-right">Jan 2020 – Sep 2020<h5>Big Fish Games</h5></div>
-          <div class="lg:col-span-1"></div>
-          <div class="lg:col-span-8">
-            <h4>Sr UX/UI Designer</h4>
-            <ul>
-              <li>Provided UX/UI consulting for mobile and causal games to in-house and external studios. </li>
+        <!-- projekt202 p202 ux ui product designer -->
 
-              <li>Wireframed, prototyped, and assisted in UI design for user onboarding, social and community features, and other meta-game experiences.</li>
-              <li>Developed criteria and heuristics tailored to game design in order to have a consistent company-wide UX evaluation process.</li>
-              <li>Games: Gummy Drop, Decurse, Knittens, Coin Heist</li>
-            </ul>
-          </div>
-        </article>
-        <article class="container grid grid-cols-1 lg:grid-cols-12">
-          <div class="lg:col-span-3 lg:text-right">Jan 2020 – Sep 2020<h5>Big Fish Games</h5></div>
-          <div class="lg:col-span-1"></div>
-          <div class="lg:col-span-8">
-            <h4>Sr UX/UI Designer</h4>
-            <ul>
-              <li>Provided UX/UI consulting for mobile and causal games to in-house and external studios. </li>
+        <!-- source spring sspring ux ui product designer manager director -->
 
-              <li>Wireframed, prototyped, and assisted in UI design for user onboarding, social and community features, and other meta-game experiences.</li>
-              <li>Developed criteria and heuristics tailored to game design in order to have a consistent company-wide UX evaluation process.</li>
-              <li>Games: Gummy Drop, Decurse, Knittens, Coin Heist</li>
-            </ul>
-          </div>
-        </article>
-        <article class="container grid grid-cols-1 lg:grid-cols-12">
-          <div class="lg:col-span-3 lg:text-right">Jan 2020 – Sep 2020<h5>Big Fish Games</h5></div>
-          <div class="lg:col-span-1"></div>
-          <div class="lg:col-span-8">
-            <h4>Sr UX/UI Designer</h4>
-            <ul>
-              <li>Provided UX/UI consulting for mobile and causal games to in-house and external studios. </li>
+        <!-- front gate tickets fgt product manager director founder -->
 
-              <li>Wireframed, prototyped, and assisted in UI design for user onboarding, social and community features, and other meta-game experiences.</li>
-              <li>Developed criteria and heuristics tailored to game design in order to have a consistent company-wide UX evaluation process.</li>
-              <li>Games: Gummy Drop, Decurse, Knittens, Coin Heist</li>
-            </ul>
-          </div>
-        </article>
-        <div class="container justify-center"><button>Download</button></div>
+        <!-- human code software engineering manager -->
       </section>
-      <section id="contact-title" class="container grid grid-cols-1 lg:grid-cols-12">
-        <header class="lg:col-span-12"><h1>Contact</h1></header>
+
+      <!-- testimonials -->
+      <section id="testimonials" class="container grid grid-cols-1 lg:grid-cols-2 gap-4">
+        <header class="lg:col-span-2"><h1>Testimonials</h1></header>
+    
+        <!-- dana -->
+        <article class="grid grid-cols-6 gap-4">
+          <div class="quotemark lg:col-span-1">&ldquo;</div>
+          <div class="quotation lg:col-span-5">
+              <p>Kylie’s ‘all-in’ and ‘how can we…?’ attitude motivated me (and all the other designers) to do their best work even when faced with challenging conditions.</p>
+              <p class="cite">—Dana (direct report)<br>Product Design Lead</p>
+          </div>
+        </article>
+
+        <!-- christina -->
+        <article class="grid grid-cols-6 gap-4">
+          <div class="quotemark lg:col-span-1">&ldquo;</div>
+          <div class="quotation lg:col-span-5">
+              <p>Kylie helped HR save a Development platform project that was struggling, and I personally worked with them to establish a budding DEI program that has provided tangible improvement to the business.</p>
+              <p class="cite">—Christina (peer)<br>Sr Tech Recruiter</p>
+          </div>
+        </article>
+
+        <!-- harry -->
+        <article class="grid grid-cols-6 gap-4">
+          <div class="quotemark lg:col-span-1">&ldquo;</div>
+          <div class="quotation lg:col-span-5">
+              <p>Kylie positioned themself as a catalyst for our group, helping us understand and guide each other. They brought more empathy to our practice, taught our team and game teams design thinking, while maintaining a presence and sense of humor.</p>
+              <p class="cite">—Harry (peer)<br>Sr UX Designer</p>
+          </div>
+        </article>
+
+        <!-- kevin -->
+        <article class="grid grid-cols-6 gap-4">
+          <div class="quotemark lg:col-span-1">&ldquo;</div>
+          <div class="quotation lg:col-span-5">
+              <p>Kylie consistently followed through on her end to create meaningful partnerships that made it easy for us to devote time and effort to a project that was of critical importance to all parties involved.</p>
+              <p class="cite">—Kevin (vendor)<br>Recruiting Manager</p>
+          </div>
+        </article>
+
+        <!-- kris -->
+        <article class="grid grid-cols-6 gap-4">
+          <div class="quotemark lg:col-span-1">&ldquo;</div>
+          <div class="quotation lg:col-span-5">
+              <p>Kylie transformed what would’ve been a very modest site into a beautiful, professional and user-friendly platform. Kylie mapped out a realistic timeline, designed excellent wireframes and UI, and conducted productive user testing. The results were far above my expectations.</p>
+              <p class="cite">—Kris Olsen (peer)<br>Learning &amp; Development</p>
+          </div>
+        </article>
+
+        <!-- kevin -->
+        <article class="grid grid-cols-6 gap-4">
+          <div class="quotemark lg:col-span-1">&ldquo;</div>
+          <div class="quotation lg:col-span-5">
+              <p></p>
+              <p class="cite">—Chris (direct supervisor)<br>Director of UX</p>
+          </div>
+        </article>
       </section>
+
+      <!-- contact -->
+      <section id="contact-title" class="container">
+        <header><h1>Contact</h1></header>
+        <form class="grid grid-cols-1 lg:grid-cols-12 gap-4">
+          <div class="lg:colspan-3">&nbsp;</div>
+          <div class="lg:colspan-6">
+            <div><input type="text"></div>
+            <div><input type="text"></div>
+            <div><textarea></textarea></div>
+          </div>
+          <div class="lg:colspan-3">&nbsp;</div>
+          <div class="lg:colspan-12 text-center"><button>Send</button></div>
+        </form>
+      </section>
+
+
+      <!-- footer -->
+      <footer>
+        <section class="container text-center">
+          <p>Copyright 2020 Kylie Jack. All rights reserved.<br>
+          Lovingly handcrafted in HTML with Tailwind CSS and Alpine.js.</p>
+        </section>
+      </footer>
     </main>
   </div>
 </body>

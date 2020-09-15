@@ -8,6 +8,7 @@ module.exports = {
       'primary': '#333',
       'secondary': '#000',
       'tertiary': '#f04',
+      'transparent': 'transparent',
       'danger': '#f04'
     }),
     container: {

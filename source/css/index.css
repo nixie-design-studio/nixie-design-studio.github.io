@@ -81,8 +81,30 @@ button {
   @apply .shadow-lg;
 }
 
+button.button-tertiary {
+  @apply .pl-0;
+  @apply .pr-0;
+  @apply .pt-2;
+  @apply .pb-2;
+  @apply .ml-0;
+  @apply .mr-0;
+  @apply .mt-2;
+  @apply .mb-2;
+  @apply .bg-transparent;
+  @apply .uppercase;
+  @apply .font-semibold;
+  @apply .text-sm;
+  @apply .duration-200;
+  @apply .shadow-none;
+}
+
 button:active {
   @apply .shadow-md;
+}
+
+button.button-tertiary:active {
+  @apply .shadow-none;
+  @apply .text-secondary;
 }
 
 nav {
@@ -160,4 +182,33 @@ section#experience li:before {
 
 section#experience article + article {
   @apply .mt-8;
+}
+
+div.quotemark {
+  @apply .align-top;
+  @apply .font-extrabold;
+  @apply .text-secondary;
+  @apply .text-6xl;
+  @apply .text-right;
+  @apply .relative;
+  top: -2.5rem;
+}
+
+div.quotation {
+  @apply .font-semibold;
+}
+
+div.quotation p.cite {
+  @apply .font-light;
+  @apply .leading-normal;
+  text-indent: -1rem;
+  padding-left: 1rem;
+  padding-bottom: 2rem;
+}
+
+footer {
+  @apply .bg-secondary;
+  @apply .text-xs;
+  @apply .leading-normal;
+  @apply .p-4;
 }
