@@ -18066,6 +18066,10 @@ p + p {
   margin-top: 2rem;
 }
 
+p + h2 {
+  margin-top: 2rem;
+}
+
 strong {
   font-weight: 800;
 }

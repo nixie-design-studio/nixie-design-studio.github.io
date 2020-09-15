@@ -57,6 +57,10 @@ p + p {
   @apply .mt-8;
 }
 
+p + h2 {
+  @apply .mt-8;
+}
+
 strong {
   @apply .font-extrabold;
 }
