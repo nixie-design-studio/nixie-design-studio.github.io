@@ -33,7 +33,7 @@ module.exports = {
       default: '0 0.25rem 0.5rem rgba(0, 0, 0, 0.9)',
       md: '0 0.5rem 1rem rgba(0, 0, 0, 0.75)',
       lg: '0 1rem 2rem rgba(0, 0, 0, 0.5)',
-      xl: '0 2rem 4rem rgba(0, 0, 0, 0.25)',
+      xl: '0 2rem 4rem rgba(0, 0, 0, 0.75)',
       inner: 'inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)',
       none: 'none'
     }),

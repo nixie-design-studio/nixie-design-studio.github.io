@@ -1,3 +1,7 @@
+<!-- TODO: Finish portfolio: research section -->
+<!-- TODO: Navigation javascript -->
+<!-- TODO: Finish resume -->
+<!-- TODO: Create contact form -->
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -8,6 +12,7 @@
   <meta name="author" content="kylie jack">
   <title>kylie jack: ux advocacy and design transformation</title>
   <link rel="stylesheet" href="assets/css/index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;800&display=swap" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
 </head>
 
@@ -33,11 +38,11 @@
 
       <!-- about -->
       <section id="about">
-        <div class="container grid grid-cols-1 lg:grid-cols-12 gap-4">
-          <header class="lg:col-span-12"><h1>Hello, I’m Kylie.</h1></header>
+        <div class="container grid grid-cols-1 md:grid-cols-12 gap-4">
+          <header class="md:col-span-12"><h1>Hello, I’m Kylie.</h1></header>
         </div>
-        <div class="container grid grid-cols-1 lg:grid-cols-12 gap-4">
-          <article class="max-w-2xl lg:col-span-7">
+        <div class="container grid grid-cols-1 md:grid-cols-12 gap-4">
+          <article class="max-w-2xl md:col-span-7">
             <h2>User advocacy and design transformation</h2>
             <p>Over my design career, each step of the way I’ve nurtured organizations by advocating for user-centered design, teaching design thinking, and building and maturing UX capabilities—not just to improve products and services, but to benefit the organization itself and the people within it. Everyone in an organization impacts and has ownership of customer and user experiences. I mentor and guide people to understand the concepts of design thinking and user-centered design in order to create meaningful, positive impact in the world.</p>
             <h2>Experience design and product management</h2>
@@ -45,7 +50,10 @@
             <button>Read more</button>
           </article>
           <div class="col-span-1"></div>
-          <aside class="lg:col-span-4">
+          <aside class="md:col-span-4">
+            <!--<div class="avatar">
+              <img src="/assets/images/kylie.png">
+            </div>-->
             <ul>
               <li><h3><strong>25 years</strong> designing software</h3></li>
               <li><strong>16y</strong> UX/UI design</li>
@@ -60,48 +68,65 @@
 
       <!-- portfolio -->
       <section id="portfolio">
-        <div class="container grid grid-cols-1 lg:grid-cols-12 gap-4">
-          <header class="lg:col-span-12"><h1>Portfolio</h1></header>
+        <div class="container grid grid-cols-1 md:grid-cols-12 gap-4">
+          <header class="md:col-span-12"><h1>Portfolio</h1></header>
         </div>
 
         <!-- enterprise case study -->
         <div class="bg-secondary">
-          <div class="container grid grid-cols-1 lg:grid-cols-12 gap-4">
-            <article class="max-w-2xl lg:col-span-12">
+          <div class="container grid grid-cols-1 sm:grid-cols-12 gap-4">
+            <article class="max-w-2xl sm:col-span-12">
               <h6>Case Study</h6>
-              <h2>Desiging an enterprise technical support tool</h2>
+              <h2>Designing an enterprise technical support tool</h2>
               <p>Leveraging prior research, I created scenarios, flows and an interactive prototype to inform development of a new enterprise technical support tool for a large computer manufacturer’s customer support staff.</p>
             <button>Read More</button>
             </article>
-            <div class="lg:col-span-4"><img src="/assets/images/enterprise1.png"></div>
-            <div class="lg:col-span-4"><img src="/assets/images/enterprise2.png"></div>
-            <div class="lg:col-span-4"><img src="/assets/images/enterprise3.png"></div>
+            <div class="col-span-1 sm:col-span-4"><img src="/assets/images/enterprise1.png"></div>
+            <div class="col-span-1 sm:col-span-4"><img src="/assets/images/enterprise2.png"></div>
+            <div class="col-span-1 sm:col-span-4"><img src="/assets/images/enterprise3.png"></div>
           </div>
         </div>
         <div class="break-xl"></div>
 
         <!-- lighting case study -->
         <div class="bg-secondary">
-          <div class="container grid grid-cols-1 lg:grid-cols-12 gap-4">
+          <div class="container grid grid-cols-1 md:grid-cols-12 gap-4">
             <div class="col-span-1"></div>
-            <article class="max-w-2xl lg:col-span-4 text-right">
+            <article class="max-w-2xl md:col-span-3 md:text-right">
               <h6>Case Study</h6>
               <h2>Prototyping a lighting control app</h2>
               <p>Configuring commercial lighting controllers during an installation is a difficult, time-consuming process. Users struggle with complex and poorly designed lighting interfaces. I redesigned the controller interface to make these problems easier.</p>
             <button>Read More</button>
             </article>
-            <div class="col-span-1"></div>
-            <div class="lg:col-span-3">
+            <div class="md:col-span-1"></div>
+            <div class="md:col-span-4">
               <img src="/assets/images/lighting1.png">
             </div>
-            <div class="lg:col-span-3 grid colspan-1 gap-4">
-              <div class="col-span-1"><img src="/assets/images/lighting2.png"></div>
+            <div class="md:col-span-3 grid colspan-1 gap-4">
+              <div class="col-span-1"><img src="/assets/images/lighting2.jpg"></div>
               <div class="col-span-1"><img src="/assets/images/lighting3.png"></div>
-              <div class="col-span-1"><img src="/assets/images/lighting4.png"></div>
+              <div class="col-span-1"><img src="/assets/images/lighting4.jpg"></div>
             </div>
           </div>
         </div>
-        <div class="break-lg"></div>
+        <div class="break-xl"></div>
+
+        <!-- ui quicktakes -->
+        <div class="bg-secondary">
+          <div class="container grid grid-cols-1 md:grid-cols-12 gap-4">
+            <div class="md:col-span-6">
+              <img src="/assets/images/ui1.png">
+            </div>
+            <div class="md:col-span-1"></div>
+            <article class="max-w-2xl md:col-span-5">
+              <h6>Quick Takes</h6>
+              <h2>UI Design</h2>
+              <p>While I focus on conceptual and interaction design, I’m capable of creating beautiful user interfaces for products. Typically design systems (especially ‘flat’ styles) obviate the need for this type of work, but consumer and mobile applications require an extra level of detail to delight users and reinforce branding. In this study, I show several examples from different projects.</p>
+            <button>Read More</button>
+            </article>
+          </div>
+        </div>
+        <div class="break-xl"></div>
       </section>
 
       <!-- experience -->
@@ -109,45 +134,41 @@
         <header><h1>Experience</h1></header>
         
         <!-- big fish games bfg ux ui designer -->
-        <article class="container grid grid-cols-1 lg:grid-cols-12 gap-4">
-          <div class="lg:col-span-3 lg:text-right">
-            <div class="dates-worked">Jan 2020 – Sep 2020</div>
+        <article class="container grid grid-cols-1 md:grid-cols-12 gap-4">
+          <div class="md:col-span-3 md:text-right">
             <h5>Big Fish Games</h5>
+            <div class="dates-worked">Jan 2020 – Sep 2020</div>
           </div>
-          <div class="lg:col-span-1"></div>
-          <div class="lg:col-span-8">
+          <div class="hidden md:grid md:col-span-1"></div>
+          <div class="md:col-span-8">
             <h4>Sr UX/UI Designer</h4>
-            <ul>
-              <li>Provided UX/UI consulting for mobile and causal games to in-house and external studios. </li>
-
-              <li>Wireframed, prototyped, and assisted in UI design for user onboarding, social and community features, and other meta-game experiences.</li>
-              <li>Developed criteria and heuristics tailored to game design in order to have a consistent company-wide UX evaluation process.</li>
-              <li>Games: Gummy Drop, Decurse, Knittens, Coin Heist</li>
-            </ul>
-            <div x-data="{ more_bfg: false }">
-              <button class="button-tertiary" @click="more_bfg = !more_bfg" x-text="more_bfg ? '« less' : 'more »'"></button>
-              <div x-show="more_bfg">arhdsjadshakD djk DSHJK Da</div>
+              <p><em>Key accomplishment:</em> Via stakeholder research, created best practices, process, and design pillars for the UX team so we had a vision and roadmap, and for the organization to better understand the value of UX.</p>
+              <p><em>Key Games:</em> Gummy Drop, Decurse, Knittens, Coin Heist</p>
+              <p><em>Responsibilities:</em></p>
+              <ul>
+                <li>Provide UX/UI consulting for mobile and causal games to in-house and external studios. </li>
+                <li>Wireframe, prototype, and design UIs for user onboarding, social and community features, and other meta-game experiences.</li>
+                <li>Develop criteria and heuristics tailored to game design in order to have a consistent company-wide UX evaluation process.</li>
+              </ul>
+              <div x-data="{ more_bfg: false }">
+              <button class="button-tertiary" @click="more_bfg = !more_bfg" x-text="more_bfg ? '▾ hide details' : '▸ show details'"></button>
+              <div x-show="more_bfg">
+                <p><em>Key accomplishment:</em> Via stakeholder research, created best practices, process, and design pillars for the UX team so we had a vision and roadmap, and for the organization to better understand the value of UX.</p>
+                <p><em>Key Games:</em> Gummy Drop, Decurse, Knittens, Coin Heist</p>
+                <p><em>Project highlights</em></p>
+                <ul>
+                  <li>Created high fidelity UI prototypes for Coin Heist player validation testing.</li>
+                  <li>Designed and storyboarded mini-games for Gummy Drop.</li>
+                  <li>Developed process and evaluation criteria for UX lifecycle.</li>
+                  <li>Designed a web-based career development platform from research, to wireframing flows, to final visual design comps.</li>
+                  <li>Developed best practices around gender inclusion for games.</li>
+                </ul>
+              </div>
             </div>
           </div>
         </article>
 
         <!-- projekt202 p202 design manager -->
-        <article class="container grid grid-cols-1 lg:grid-cols-12 gap-4">
-          <div class="lg:col-span-3 lg:text-right">
-            <div class="dates-worked">Date</div>
-            <h5>Company</h5></div>
-          <div class="lg:col-span-1"></div>
-          <div class="lg:col-span-8">
-            <h4>Position</h4>
-            <ul>
-              <li>Actions</li>
-            </ul>
-            <div x-data="{ more_p202_mgr: false }">
-              <button class="button-tertiary" @click="more_p202_mgr = !more_p202_mgr" x-text="more_p202_mgr ? '« less' : 'more »'"></button>
-              <div x-show="more_p202_mgr">details</div>
-            </div>
-          </div>
-        </article>
 
         <!-- projekt202 p202 ux ui product designer -->
 
@@ -156,26 +177,25 @@
         <!-- front gate tickets fgt product manager director founder -->
 
         <!-- human code software engineering manager -->
+        <div class="text-center"><button>Download PDF</button></div>
       </section>
 
       <!-- contact -->
       <section id="contact-title" class="container">
         <header><h1>Contact</h1></header>
-        <form class="grid grid-cols-1 lg:grid-cols-12 gap-4">
-          <div class="lg:colspan-3">&nbsp;</div>
-          <div class="lg:colspan-6">
+        <form class="grid grid-cols-1 gap-4">
+          <div class="md:col-span-1 text-center">
             <div><input type="text"></div>
             <div><input type="text"></div>
             <div><textarea></textarea></div>
           </div>
-          <div class="lg:colspan-3">&nbsp;</div>
-          <div class="lg:colspan-12 text-center"><button>Send</button></div>
+          <div class="col-span-1 text-center"><button>Send</button></div>
         </form>
       </section>
 
       <!-- testimonials -->
-      <section id="testimonials" class="container grid grid-cols-1 lg:grid-cols-2 gap-4">
-        <header class="lg:col-span-2"><h1>Testimonials</h1></header>
+      <section id="testimonials" class="container grid grid-cols-1 md:grid-cols-2 gap-4">
+        <header class="md:col-span-2"><h1>Testimonials</h1></header>
     
         <!-- dana -->
         <article class="grid col-span-1 grid-cols-6 gap-4">
@@ -230,7 +250,7 @@
               <p class="cite">—Chris (direct supervisor)<br>Director of UX</p>
           </div>
         </article>
-        <div class="break-lg"></div>
+        <div class="break-xl"></div>
       </section>
 
       <!-- footer -->

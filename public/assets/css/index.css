@@ -14556,7 +14556,7 @@ video {
 }
 
 .shadow-xl {
-  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.75);
 }
 
 .shadow-inner {
@@ -14588,7 +14588,7 @@ video {
 }
 
 .hover\:shadow-xl:hover {
-  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.75);
 }
 
 .hover\:shadow-inner:hover {
@@ -14620,7 +14620,7 @@ video {
 }
 
 .focus\:shadow-xl:focus {
-  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.75);
 }
 
 .focus\:shadow-inner:focus {
@@ -18006,8 +18006,6 @@ video {
           animation: bounce 1s infinite;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;800&display=swap');
-
 body {
   font-family: "Libre Franklin", "Helvetica Neue", sans-serif;
   --bg-opacity: 1;
@@ -18035,11 +18033,15 @@ h2 {
   font-family: "Libre Franklin", "Helvetica Neue", sans-serif;
   font-weight: 800;
   font-size: 1.5rem;
+  line-height: 1.25;
+  padding-bottom: 0.5rem;
 }
 
 h3 {
   font-family: "Libre Franklin", "Helvetica Neue", sans-serif;
   font-size: 1.5rem;
+  line-height: 1.25;
+  padding-bottom: 0.5rem;
 }
 
 h4 {
@@ -18053,6 +18055,7 @@ h5 {
 }
 
 h6 {
+  margin-top: 2rem;
   font-family: "Libre Franklin", "Helvetica Neue", sans-serif;
   font-weight: 600;
   text-transform: uppercase
@@ -18067,6 +18070,10 @@ p + p {
 }
 
 p + h2 {
+  margin-top: 2rem;
+}
+
+h4 + p {
   margin-top: 2rem;
 }
 
@@ -18088,11 +18095,12 @@ button {
   padding-left: 1rem;
   padding-right: 1rem;
   margin-top: 2rem;
-  margin-bottom: 2rem;
-  font-weight: 800;
+  margin-bottom: 1rem;
+  font-weight: 600;
   text-transform: uppercase;
   transition-duration: 200ms;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+  min-width: 8rem;
 }
 
 button.button-tertiary {
@@ -18110,6 +18118,7 @@ button.button-tertiary {
   font-size: 0.875rem;
   transition-duration: 200ms;
   box-shadow: none;
+  min-width: 0;
 }
 
 button:active {
@@ -18118,6 +18127,12 @@ button:active {
 
 button.button-tertiary:active {
   box-shadow: none;
+  --text-opacity: 1;
+  color: #333;
+  color: rgba(51, 51, 51, var(--text-opacity));
+}
+
+button.button-tertiary:hover {
   --text-opacity: 1;
   color: #f03;
   color: rgba(255, 0, 51, var(--text-opacity));
@@ -18163,7 +18178,7 @@ nav a#home {
 #portfolio img {
   position: relative;
   top: 4rem;
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.75);
   -o-object-fit: fill;
      object-fit: fill;
 }
@@ -18177,7 +18192,7 @@ nav a#home {
 }
 
 div.break-lg {
-  height: 8rem;
+  height: 4rem;
 }
 
 div.break-xl {
@@ -18234,6 +18249,14 @@ footer {
   font-size: 0.75rem;
   line-height: 1.5;
   padding: 1rem;
+}
+
+div.avatar img {
+  width: 30%;
+  display: block;
+  margin: 0 auto 4 auto;
+  -webkit-clip-path: circle(50% at center);
+          clip-path: circle(50% at center);
 }
 
 @media (min-width: 640px) {
@@ -32207,7 +32230,7 @@ footer {
   }
 
   .sm\:shadow-xl {
-    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.75);
   }
 
   .sm\:shadow-inner {
@@ -32239,7 +32262,7 @@ footer {
   }
 
   .sm\:hover\:shadow-xl:hover {
-    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.75);
   }
 
   .sm\:hover\:shadow-inner:hover {
@@ -32271,7 +32294,7 @@ footer {
   }
 
   .sm\:focus\:shadow-xl:focus {
-    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.75);
   }
 
   .sm\:focus\:shadow-inner:focus {
@@ -49563,7 +49586,7 @@ footer {
   }
 
   .md\:shadow-xl {
-    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.75);
   }
 
   .md\:shadow-inner {
@@ -49595,7 +49618,7 @@ footer {
   }
 
   .md\:hover\:shadow-xl:hover {
-    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.75);
   }
 
   .md\:hover\:shadow-inner:hover {
@@ -49627,7 +49650,7 @@ footer {
   }
 
   .md\:focus\:shadow-xl:focus {
-    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.75);
   }
 
   .md\:focus\:shadow-inner:focus {
@@ -66919,7 +66942,7 @@ footer {
   }
 
   .lg\:shadow-xl {
-    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.75);
   }
 
   .lg\:shadow-inner {
@@ -66951,7 +66974,7 @@ footer {
   }
 
   .lg\:hover\:shadow-xl:hover {
-    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.75);
   }
 
   .lg\:hover\:shadow-inner:hover {
@@ -66983,7 +67006,7 @@ footer {
   }
 
   .lg\:focus\:shadow-xl:focus {
-    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.75);
   }
 
   .lg\:focus\:shadow-inner:focus {
@@ -84275,7 +84298,7 @@ footer {
   }
 
   .xl\:shadow-xl {
-    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.75);
   }
 
   .xl\:shadow-inner {
@@ -84307,7 +84330,7 @@ footer {
   }
 
   .xl\:hover\:shadow-xl:hover {
-    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.75);
   }
 
   .xl\:hover\:shadow-inner:hover {
@@ -84339,7 +84362,7 @@ footer {
   }
 
   .xl\:focus\:shadow-xl:focus {
-    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.75);
   }
 
   .xl\:focus\:shadow-inner:focus {
