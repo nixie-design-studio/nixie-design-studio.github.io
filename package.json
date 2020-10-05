@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "postcss source/css/index.css -o public/assets/css/index.css"
+    "build": "postcss source/css/index.css -o assets/css/index.css"
   },
   "keywords": [],
   "author": "",
