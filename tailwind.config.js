@@ -5,11 +5,11 @@ module.exports = {
       center: true
     },
     backgroundColor: theme => ({
-      'primary': '#333',
-      'secondary': '#000',
-      'tertiary': '#f04',
+      'primary': '#fff',
+      'secondary': '#ccc',
+      'tertiary': '#80f',
       'transparent': 'transparent',
-      'danger': '#f04'
+      'danger': '#80f'
     }),
     container: {
       center: true,
@@ -38,10 +38,10 @@ module.exports = {
       none: 'none'
     }),
     textColor: theme => ({
-      'primary': '#fff',
-      'secondary': '#f03',
-      'tertiary': '#333',
-      'danger': '#fff'
+      'primary': '#000',
+      'secondary': '#80f',
+      'tertiary': '#ccc',
+      'danger': '#000'
     }),
   },
   variants: {},

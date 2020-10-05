@@ -1,19 +1,23 @@
-<!-- TODO: Finish portfolio: research section -->
-<!-- TODO: Navigation javascript -->
-<!-- TODO: Finish resume -->
-<!-- TODO: Create contact form -->
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="keywords" content="kylie, jack, ux strategy, product design, product management, ui design, ux design, interaction design, user research, usability">
-  <meta name="description" content="I'm a product and UX designer with over 16 years of design experience, and 25 years in the software industry. I specialize in advocacy and organizational maturity in design thinking, user-centered design, and user experience strategy.">
-  <meta name="author" content="kylie jack">
-  <title>kylie jack: ux advocacy and design transformation</title>
+  <meta name="keywords" content="nixie, design studio, ux strategy, product design, product management, ui design, ux design, interaction design, user research, usability">
+ <meta name="description" content="we bring #ux capabilities and maturity to startups · design thinking · user research · interface design · user testing · prototyping">
+  <meta name="author" content="nixie design studio">
+  <title>nixie design studio: ux advocacy and design transformation</title>
   <link rel="stylesheet" href="assets/css/index.css">
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;800&display=swap" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;300;600;800&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script> 
+  <script>
+    $( document ).ready(function() {
+      $('a.mail').click(function(){
+        var href = $(this).attr('href');
+        $(this).attr('href', href.replace('spam', 'hello'));
+      });
+    });
+  </script>
 </head>
 
 <body name="top">
@@ -21,243 +25,55 @@
   <div class="flex flex-col h-screen">
 
     <!-- navigation -->
-    <nav>
+    <!--<nav>
       <div class="container">
-        <a id="home" href="#top">Kylie Jack</a>
+        <a id="home" href="#top">nixie design studio</a>
         <ul>
           <li><a href="#about" class="nav-selected">About</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#experience">Experience</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
-    </nav>
+    </nav>-->
 
     <!-- main scrolling area -->
     <main class="flex-1 overflow-y-auto">
 
       <!-- about -->
       <section id="about">
-        <div class="container grid grid-cols-1 md:grid-cols-12 gap-4">
-          <header class="md:col-span-12"><h1>Hello, I’m Kylie.</h1></header>
+       <div class="container grid grid-cols-1 md:grid-cols-3 gap-4">
+          <header class="md:col-span-3">
+            <img src="/assets/images/nixie-header.png" alt="nixie design studio">
+          </header>
         </div>
-        <div class="container grid grid-cols-1 md:grid-cols-12 gap-4">
-          <article class="max-w-2xl md:col-span-7">
-            <h2>User advocacy and design transformation</h2>
-            <p>Over my design career, each step of the way I’ve nurtured organizations by advocating for user-centered design, teaching design thinking, and building and maturing UX capabilities—not just to improve products and services, but to benefit the organization itself and the people within it. Everyone in an organization impacts and has ownership of customer and user experiences. I mentor and guide people to understand the concepts of design thinking and user-centered design in order to create meaningful, positive impact in the world.</p>
-            <h2>Experience design and product management</h2>
-            <p>In my 25 years of experience, I’ve worked in a variety of roles (developer, designer, researcher, product manager) for a diverse group of startups, agencies, and product companies. I focus on user experience design and leadership, because I love engaging directly with users and customers. My specialties include product development, design team management, and user-centered design. I craft and evolve products and services to make a positive impact on people’s daily lives, from work to play.</p>
-            <button>Read more</button>
-          </article>
-          <div class="col-span-1"></div>
-          <aside class="md:col-span-4">
-            <!--<div class="avatar">
-              <img src="/assets/images/kylie.png">
-            </div>-->
-            <ul>
-              <li><h3><strong>25 years</strong> designing software</h3></li>
-              <li><strong>16y</strong> UX/UI design</li>
-              <li><strong>12y</strong> product management</li>
-              <li><strong>14y</strong> programming</li>
-              <li><strong>6y</strong> project management</li>
-              <li><strong>4y</strong> user research</li>
-            </ul>
-          </aside>
+        <div class="container grid grid-cols-1 md:grid-cols-8 gap-4">
+          <div class="md:col-span-2"></div>
+          <article class="max-w-2xl md:col-span-4 text-center">
+            <h2>user advocacy and design transformation</h2>
+            <p>we nurture organizations by advocating for user-centered design, teaching design thinking, and building and maturing UX capabilities—not just to improve products and services, but to benefit the organization itself and the people within it. everyone in an organization impacts and has ownership of customer and user experiences. we mentor and guide people in understanding the concepts of design thinking and user-centered design in order to create meaningful, positive impact in the world.</p>
+            <p>we respect our client's discretion.<br>to view our work or learn more, get in touch with us at <a href="mailto:spam@nixie.co" class="mail">hel<!-- no@example.com -->lo&#64;nixi<!-- no@example.com -->e.co</a></p>
+          <div class="md:col-span-2"></div>
         </div>
       </section>
 
-      <!-- portfolio -->
-      <section id="portfolio">
-        <div class="container grid grid-cols-1 md:grid-cols-12 gap-4">
-          <header class="md:col-span-12"><h1>Portfolio</h1></header>
-        </div>
-
-        <!-- enterprise case study -->
-        <div class="bg-secondary">
-          <div class="container grid grid-cols-1 sm:grid-cols-12 gap-4">
-            <article class="max-w-2xl sm:col-span-12">
-              <h6>Case Study</h6>
-              <h2>Designing an enterprise technical support tool</h2>
-              <p>Leveraging prior research, I created scenarios, flows and an interactive prototype to inform development of a new enterprise technical support tool for a large computer manufacturer’s customer support staff.</p>
-            <button>Read More</button>
-            </article>
-            <div class="col-span-1 sm:col-span-4"><img src="/assets/images/enterprise1.png"></div>
-            <div class="col-span-1 sm:col-span-4"><img src="/assets/images/enterprise2.png"></div>
-            <div class="col-span-1 sm:col-span-4"><img src="/assets/images/enterprise3.png"></div>
-          </div>
-        </div>
-        <div class="break-xl"></div>
-
-        <!-- lighting case study -->
-        <div class="bg-secondary">
-          <div class="container grid grid-cols-1 md:grid-cols-12 gap-4">
-            <div class="col-span-1"></div>
-            <article class="max-w-2xl md:col-span-3 md:text-right">
-              <h6>Case Study</h6>
-              <h2>Prototyping a lighting control app</h2>
-              <p>Configuring commercial lighting controllers during an installation is a difficult, time-consuming process. Users struggle with complex and poorly designed lighting interfaces. I redesigned the controller interface to make these problems easier.</p>
-            <button>Read More</button>
-            </article>
-            <div class="md:col-span-1"></div>
-            <div class="md:col-span-4">
-              <img src="/assets/images/lighting1.png">
-            </div>
-            <div class="md:col-span-3 grid colspan-1 gap-4">
-              <div class="col-span-1"><img src="/assets/images/lighting2.jpg"></div>
-              <div class="col-span-1"><img src="/assets/images/lighting3.png"></div>
-              <div class="col-span-1"><img src="/assets/images/lighting4.jpg"></div>
-            </div>
-          </div>
-        </div>
-        <div class="break-xl"></div>
-
-        <!-- ui quicktakes -->
-        <div class="bg-secondary">
-          <div class="container grid grid-cols-1 md:grid-cols-12 gap-4">
-            <div class="md:col-span-6">
-              <img src="/assets/images/ui1.png">
-            </div>
-            <div class="md:col-span-1"></div>
-            <article class="max-w-2xl md:col-span-5">
-              <h6>Quick Takes</h6>
-              <h2>UI Design</h2>
-              <p>While I focus on conceptual and interaction design, I’m capable of creating beautiful user interfaces for products. Typically design systems (especially ‘flat’ styles) obviate the need for this type of work, but consumer and mobile applications require an extra level of detail to delight users and reinforce branding. In this study, I show several examples from different projects.</p>
-            <button>Read More</button>
-            </article>
-          </div>
-        </div>
-        <div class="break-xl"></div>
-      </section>
-
-      <!-- experience -->
-      <section id="experience" class="container grid grid-cols-1">
-        <header><h1>Experience</h1></header>
-        
-        <!-- big fish games bfg ux ui designer -->
-        <article class="container grid grid-cols-1 md:grid-cols-12 gap-4">
-          <div class="md:col-span-3 md:text-right">
-            <h5>Big Fish Games</h5>
-            <div class="dates-worked">Jan 2020 – Sep 2020</div>
-          </div>
-          <div class="hidden md:grid md:col-span-1"></div>
-          <div class="md:col-span-8">
-            <h4>Sr UX/UI Designer</h4>
-              <p><em>Key accomplishment:</em> Via stakeholder research, created best practices, process, and design pillars for the UX team so we had a vision and roadmap, and for the organization to better understand the value of UX.</p>
-              <p><em>Key Games:</em> Gummy Drop, Decurse, Knittens, Coin Heist</p>
-              <p><em>Responsibilities:</em></p>
-              <ul>
-                <li>Provide UX/UI consulting for mobile and causal games to in-house and external studios. </li>
-                <li>Wireframe, prototype, and design UIs for user onboarding, social and community features, and other meta-game experiences.</li>
-                <li>Develop criteria and heuristics tailored to game design in order to have a consistent company-wide UX evaluation process.</li>
-              </ul>
-              <div x-data="{ more_bfg: false }">
-              <button class="button-tertiary" @click="more_bfg = !more_bfg" x-text="more_bfg ? '▾ hide details' : '▸ show details'"></button>
-              <div x-show="more_bfg">
-                <p><em>Key accomplishment:</em> Via stakeholder research, created best practices, process, and design pillars for the UX team so we had a vision and roadmap, and for the organization to better understand the value of UX.</p>
-                <p><em>Key Games:</em> Gummy Drop, Decurse, Knittens, Coin Heist</p>
-                <p><em>Project highlights</em></p>
-                <ul>
-                  <li>Created high fidelity UI prototypes for Coin Heist player validation testing.</li>
-                  <li>Designed and storyboarded mini-games for Gummy Drop.</li>
-                  <li>Developed process and evaluation criteria for UX lifecycle.</li>
-                  <li>Designed a web-based career development platform from research, to wireframing flows, to final visual design comps.</li>
-                  <li>Developed best practices around gender inclusion for games.</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </article>
-
-        <!-- projekt202 p202 design manager -->
-
-        <!-- projekt202 p202 ux ui product designer -->
-
-        <!-- source spring sspring ux ui product designer manager director -->
-
-        <!-- front gate tickets fgt product manager director founder -->
-
-        <!-- human code software engineering manager -->
-        <div class="text-center"><button>Download PDF</button></div>
-      </section>
-
-      <!-- contact -->
-      <section id="contact-title" class="container">
-        <header><h1>Contact</h1></header>
-        <form class="grid grid-cols-1 gap-4">
-          <div class="md:col-span-1 text-center">
-            <div><input type="text"></div>
-            <div><input type="text"></div>
-            <div><textarea></textarea></div>
-          </div>
-          <div class="col-span-1 text-center"><button>Send</button></div>
-        </form>
-      </section>
-
-      <!-- testimonials -->
+      <!-- testimonials
       <section id="testimonials" class="container grid grid-cols-1 md:grid-cols-2 gap-4">
         <header class="md:col-span-2"><h1>Testimonials</h1></header>
-    
-        <!-- dana -->
         <article class="grid col-span-1 grid-cols-6 gap-4">
           <div class="quotemark col-span-1">&ldquo;</div>
           <div class="quotation col-span-5">
-              <p>Kylie’s ‘all-in’ and ‘how can we…?’ attitude motivated me (and all the other designers) to do their best work even when faced with challenging conditions.</p>
-              <p class="cite">—Dana (direct report)<br>Product Design Lead</p>
-          </div>
-        </article>
-
-        <!-- christina -->
-        <article class="grid col-span-1 grid-cols-6 gap-4">
-          <div class="quotemark col-span-1">&ldquo;</div>
-          <div class="quotation col-span-5">
-              <p>Kylie helped HR save a Development platform project that was struggling, and I personally worked with them to establish a budding DEI program that has provided tangible improvement to the business.</p>
-              <p class="cite">—Christina (peer)<br>Sr Tech Recruiter</p>
-          </div>
-        </article>
-
-        <!-- harry -->
-        <article class="grid col-span-1 grid-cols-6 gap-4">
-          <div class="quotemark col-span-1">&ldquo;</div>
-          <div class="quotation col-span-5">
-              <p>Kylie positioned themself as a catalyst for our group, helping us understand and guide each other. They brought more empathy to our practice, taught our team and game teams design thinking, while maintaining a presence and sense of humor.</p>
-              <p class="cite">—Harry (peer)<br>Sr UX Designer</p>
-          </div>
-        </article>
-
-        <!-- kevin -->
-        <article class="grid col-span-1 grid-cols-6 gap-4">
-          <div class="quotemark col-span-1">&ldquo;</div>
-          <div class="quotation col-span-5">
-              <p>Kylie consistently followed through on her end to create meaningful partnerships that made it easy for us to devote time and effort to a project that was of critical importance to all parties involved.</p>
-              <p class="cite">—Kevin (vendor)<br>Recruiting Manager</p>
-          </div>
-        </article>
-
-        <!-- kris -->
-        <article class="grid col-span-1 grid-cols-6 gap-4">
-          <div class="quotemark col-span-1">&ldquo;</div>
-          <div class="quotation col-span-5">
-              <p>Kylie transformed what would’ve been a very modest site into a beautiful, professional and user-friendly platform. Kylie mapped out a realistic timeline, designed excellent wireframes and UI, and conducted productive user testing. The results were far above my expectations.</p>
-              <p class="cite">—Kris Olsen (peer)<br>Learning &amp; Development</p>
-          </div>
-        </article>
-
-        <!-- kevin -->
-        <article class="grid col-span-1 grid-cols-6 gap-4">
-          <div class="quotemark col-span-1">&ldquo;</div>
-          <div class="quotation col-span-5">
-              <p>I just know Chris is going to say something amazing.</p>
-              <p class="cite">—Chris (direct supervisor)<br>Director of UX</p>
+              <p>quote</p>
+              <p class="cite">—name (relation)<br>position</p>
           </div>
         </article>
         <div class="break-xl"></div>
-      </section>
+      </section>-->
+
+      <div class="break-xl"></div>
 
       <!-- footer -->
       <footer>
         <section class="container text-center">
-          <p>Copyright 2020 Kylie Jack. All rights reserved.<br>
-          Lovingly handcrafted in HTML with Tailwind CSS and Alpine.js.</p>
+          <p>Copyright 2020 Nixie LLC. All rights reserved.</p>
         </section>
       </footer>
     </main>
